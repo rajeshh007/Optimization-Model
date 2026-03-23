@@ -29,3 +29,6 @@ Overall, this problem highlights the importance of optimization techniques in op
 
 output of the task :
 
+<img width="959" height="703" alt="Image" src="https://github.com/user-attachments/assets/e3a6401e-a45d-4303-b4d1-92dd1a84d8e8" />
+<img width="911" height="687" alt="Image" src="https://github.com/user-attachments/assets/784b50dc-2022-4e3d-bec4-d3c422f071ac" />
+<img width="1055" height="697" alt="Image" src="https://github.com/user-attachments/assets/14a641e6-d494-4901-86f2-76eb6a0da165" />
