@@ -1,0 +1,53 @@
+## Business Problem
+
+A manufacturing company produces two products: Product A and Product B.
+
+Each product requires machine hours and labor hours for production.
+The company has limited resources and wants to determine the optimal
+production quantities to maximize profit.
+
+## Business Data
+
+Profit per unit:
+
+Product A = ₹40  
+Product B = ₹30  
+
+Resource availability:
+
+Machine hours available = 100  
+Labor hours available = 80  
+
+Resource requirement per product:
+
+Product A:
+Machine hours = 2
+Labor hours = 1
+
+Product B:
+Machine hours = 1
+Labor hours = 1
+
+## Mathematical Formulation
+
+Let:
+
+x = units of Product A  
+y = units of Product B  
+
+Objective Function:
+
+Maximize
+
+Z = 40x + 30y
+
+Constraints:
+
+2x + y ≤ 100  (Machine hours)
+
+x + y ≤ 80    (Labor hours)
+
+x ≥ 0 , y ≥ 0
+
+x = pulp.LpVariable('Product_A', lowBound=0)
+
